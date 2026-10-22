@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bag & Style | Online Store</title>
+<style>
+:root {
+  --pink: #ec1672;
+  --light-pink: #fff0f5;
+  --black: #171217;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  padding: 28px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(145deg, #ffffff, #fff0f5, #ffd9e6);
+  color: var(--black);
+  font-family: Arial, sans-serif;
+}
+.card {
+  width: 100%;
+  max-width: 420px;
+  padding: 32px 24px;
+  text-align: center;
+  background: white;
+  border: 1px solid #f3b6cc;
+  border-radius: 28px;
+  box-shadow: 0 18px 50px #9b31521a;
+}
+.logo {
+  width: 76px;
+  height: 76px;
+  margin: 0 auto 16px;
+  display: grid;
+  place-items: center;
+  border-radius: 24px;
+  background: var(--pink);
+  color: white;
+  font-size: 25px;
+  font-weight: 900;
+}
+h1 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 34px;
+}
+.subtitle {
+  margin: 9px 0 22px;
+  font-size: 11px;
+  letter-spacing: 4px;
+  color: #65545d;
+}
+p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #65545d;
+}
+.link {
+  display: block;
+  margin: 12px 0;
+  padding: 16px;
+  border-radius: 14px;
+  background: var(--black);
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform .2s;
+}
+.link:hover { transform: translateY(-2px); }
+.link.instagram { background: var(--pink); }
+.link.whatsapp { background: #18864b; }
+footer {
+  margin-top: 24px;
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #786a70;
+}
+.heart { color: var(--pink); }
+</style>
+</head>
+<body>
+<main class="card">
+  <div class="logo">B&amp;S</div>
+  <h1>Bag &amp; Style</h1>
+  <div class="subtitle">ONLINE STORE</div>
+  <p>
+    Discover your favorite styles and latest arrivals.<br>
+    Follow us and stay connected!
+  </p>
+  <a class="link instagram"
+     href="https://www.instagram.com/bag_and_style19/"
+     target="_blank" rel="noopener">Instagram</a>
+  <a class="link"
+     href="https://www.tiktok.com/@sou9k.dz"
+     target="_blank" rel="noopener">TikTok</a>
+  <a class="link"
+     href="https://www.facebook.com/share/1CccUYkQ5q/"
+     target="_blank" rel="noopener">Facebook</a>
+  <a class="link whatsapp"
+     href="https://wa.me/message/X7W5G5ZSZJMWL1"
+     target="_blank" rel="noopener">WhatsApp · Contact Us</a>
+  <footer>THANK YOU FOR YOUR ORDER <span class="heart">♥</span></footer>
+</main>
+</body>
+</html>
